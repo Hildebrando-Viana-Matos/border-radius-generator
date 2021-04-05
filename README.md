@@ -38,7 +38,7 @@ It is so simple to install and run this project on your local machine, but you c
 ### Installation
 1. Clone the repository
    ```sh
-   git clone git@github.com:Hildebrando-Viana-Matos/hpoup.git
+   git clone git@github.com:Hildebrando-Viana-Matos/border-radius-generator.git
    ```
 2. Go to your File Explorer and find the index.html file, then open your code editor or click on your browser icon
 
