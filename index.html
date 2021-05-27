@@ -1,44 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hildebrando Viana Matos" />
+    <meta name="creator" content="Hildebrando" />
+    <meta name="application-name" content="H Border Radius" />
+    <meta
+      name="description"
+      content="This is a border-radius generator, where you can dynamically manipulate the CSS3 property border-radius"
+    />
+    <meta
+      name="keywords"
+      content="CSS3, border-radius CSS3, border-radius generator, Generator"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:site_name" content="H Border Radius" />
+    <meta
+      property="og:title"
+      content="H Border Radius - border-radius Generator"
+    />
+    <meta
+      property="og:description"
+      content="This is a border-radius generator, where you can dynamically manipulate the CSS3 property border-radius"
+    />
+    <meta property="og:url" content="https://hborderradius.com" />
+    <meta property="og:image" content="./assets/img/readme-img.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta
+      name="twitter:title"
+      content="H Border Radius - border-radius Generator"
+    />
+    <meta name="twitter:card" content="./assets/img/readme-img.png" />
+    <title>H Border Radius</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header>
-        <h1>H Border Radius</h1>
-        <h2>border-radius Generator</h2>
+      <h1>H Border Radius</h1>
+      <h2>border-radius Generator</h2>
     </header>
     <main>
-        <form action="">
-            <div class="content">
-                <input type="text" name="valueTopRight" id="valueTopRight" value="0" oninput="insertValue()">
-                <input type="text" name="valueTopLef" id="valueTopLeft" value="0" oninput="insertValue()">
-            </div>
+      <form action="">
+        <div class="content">
+          <input
+            type="text"
+            name="valueTopRight"
+            id="valueTopRight"
+            value="0"
+            oninput="insertValue()"
+          />
+          <input
+            type="text"
+            name="valueTopLef"
+            id="valueTopLeft"
+            value="0"
+            oninput="insertValue()"
+          />
+        </div>
 
-            <div class="boxRadius">
-                <div class="contentBox" id="box">
-                    <p id="borderNormal">border-radius: 0px;</p>
-                    <p id="borderWebKit">-webkit-border-radius: 0px;</p>
-                    <p id="borderMoz">-moz-border-radius: 0px;</p>
-                </div>
-            </div>
-            
-            <div class="content">
-                <input type="text" name="valueBottomRight" id="valueBottomRight" value="0" oninput="insertValue()">
-                <input type="text" name="valueBottomLeft" id="valueBottomLeft" value="0" oninput="insertValue()">
-            </div>
-        </form>
+        <div class="boxRadius">
+          <div class="contentBox" id="box">
+            <p id="borderNormal">border-radius: 0px;</p>
+            <p id="borderWebKit">-webkit-border-radius: 0px;</p>
+            <p id="borderMoz">-moz-border-radius: 0px;</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <input
+            type="text"
+            name="valueBottomRight"
+            id="valueBottomRight"
+            value="0"
+            oninput="insertValue()"
+          />
+          <input
+            type="text"
+            name="valueBottomLeft"
+            id="valueBottomLeft"
+            value="0"
+            oninput="insertValue()"
+          />
+        </div>
+      </form>
     </main>
 
     <footer>
-        <h1>H Border Radius</h1>
-        <p>Todos os direitos reservados ao Hildebrando</p>
+      <h1>H Border Radius</h1>
+      <p>Todos os direitos reservados ao Hildebrando</p>
     </footer>
-    <script src="./assets/scripts.js"></script>
-</body>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
